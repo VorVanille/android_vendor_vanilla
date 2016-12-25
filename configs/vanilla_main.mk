@@ -35,4 +35,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Substratum Prebuilts
 PRODUCT_PACKAGES += \
 Substratum
-
