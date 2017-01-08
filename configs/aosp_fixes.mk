@@ -27,7 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
 
 # Proprietary latinime libs needed for Keyboard swyping
-ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
+ifneq ($(filter shamu,$(TARGET_DEVICE)),)
 PRODUCT_COPY_FILES += \
     vendor/vanilla/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 else
@@ -36,8 +36,8 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Camera Effects for devices without a vendor partition
-ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
+ifneq ($(filter shamu,$(TARGET_DEVICE)),)
 PRODUCT_COPY_FILES +=  \
-    vendor/flash/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/flash/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/vanilla/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/vanilla/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 endif
