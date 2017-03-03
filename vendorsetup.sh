@@ -22,7 +22,7 @@ if [ -z "$variant" ]; then
 fi
 
 # add all lunch combos
-vendorsetups=($(ls $scriptdir/products/ | grep flash_ | sed "s/.mk/-$variant/"))
+vendorsetups=($(ls $scriptdir/products/ | grep vanilla_ | sed "s/.mk/-$variant/"))
 for combo in "${vendorsetups[@]}"; do
     add_lunch_combo $combo
 done

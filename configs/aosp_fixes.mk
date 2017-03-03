@@ -26,8 +26,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Proprietary latinime libs needed for Keyboard swyping
 ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
-    vendor/flash/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/vanilla/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 else
 PRODUCT_COPY_FILES += \
-    vendor/flash/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
+    vendor/vanilla/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
 endif

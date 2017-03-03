@@ -14,7 +14,7 @@
 # limitations under the License.
 
 ROM_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d-%H%M)
-ROM_NAME := flash_rom
+ROM_NAME := vanilla_nexus
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rom.version=$(ROM_VERSION)
