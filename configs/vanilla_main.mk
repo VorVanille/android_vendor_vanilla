@@ -25,3 +25,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     masquerade
 
+# Substratum Prebuilts
+PRODUCT_PACKAGES += \
+Substratum
+
