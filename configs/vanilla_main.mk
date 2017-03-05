@@ -23,14 +23,14 @@ PRODUCT_PACKAGES += \
 
 # Custom Packages
 PRODUCT_PACKAGES += \
-    ThemeInterfacer
+    masquerade
 
-# ThemeInterfacer sig check override
+# Masquerade sig check override
 # Default value is false
 # Setting to true so that my debug APKs get recognized without toggling the
 # switch in Advanced Settngs. Plus I don't care about security :P
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.interfacer.buildtype.check=true
+    ro.masquerade.buildtype.check=true
 
 # Substratum Prebuilts
 PRODUCT_PACKAGES += \
