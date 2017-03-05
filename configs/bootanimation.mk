@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The Pure Nexus Project
+# Copyright (C) 2017 VanillaNexus
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,16 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Add Stock Lollipop bootanimation based on device
-ifneq ($(filter angler,$(TARGET_PRODUCT)),)
+# Sets bootanimation
     PRODUCT_COPY_FILES += \
-        vendor/flash/prebuilt/bootanimation/angler.zip:system/media/bootanimation.zip
-endif
-ifneq ($(filter bullhead,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += \
-        vendor/flash/prebuilt/bootanimation/bullhead.zip:system/media/bootanimation.zip
-endif
-ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += \
-        vendor/flash/prebuilt/bootanimation/shamu.zip:system/media/bootanimation.zip
-endif
+        vendor/vanilla/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
