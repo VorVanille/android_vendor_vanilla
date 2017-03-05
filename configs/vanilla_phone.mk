@@ -15,7 +15,6 @@
 include vendor/vanilla/configs/aosp_fixes.mk
 include vendor/vanilla/configs/bootanimation.mk
 include vendor/vanilla/configs/vanilla_main.mk
-include vendor/vanilla/configs/system_additions.mk
 include vendor/vanilla/configs/version.mk
 
 # Telephony packages
