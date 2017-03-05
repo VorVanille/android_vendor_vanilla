@@ -12,9 +12,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-ROM_VERSION :=vanilla_$(PLATFORM_VERSION)-$(shell date +%Y%m%d-%H%M)
-ROM_NAME :=vanilla_nexus
+ROM_CODENAME := eykS
+ROM_BUILDNUMBER := 1.0
+ROM_VERSION :=vanilla_$(ROM_CODENAME)-$(ROM_BUILDNUMBER) 
+ROM_NAME :=VanillaNexus
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rom.version=$(ROM_VERSION)
