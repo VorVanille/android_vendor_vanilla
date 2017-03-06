@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-ROM_CODENAME :=eykS
+ROM_CODENAME :=Ascent
 ROM_BUILDNUMBER :=1.0
 ROM_VERSION :=Vanilla_$(ROM_CODENAME)-$(ROM_BUILDNUMBER) 
 ROM_NAME :=VanillaNexus
