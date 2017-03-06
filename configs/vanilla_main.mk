@@ -34,3 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Substratum Prebuilts
 PRODUCT_PACKAGES += \
 Substratum
+
+# Pixel Launcher
+PRODUCT_PACKAGES += \
+PixelLauncher
