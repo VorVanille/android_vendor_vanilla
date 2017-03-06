@@ -31,10 +31,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.masquerade.buildtype.check=true
 
-# Substratum Prebuilts
-PRODUCT_PACKAGES += \
-Substratum
-
 # Pixel Launcher
 PRODUCT_PACKAGES += \
 PixelLauncher
