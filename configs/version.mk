@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ROM_CODENAME :=Ascent
-ROM_BUILDNUMBER :=1.02
+ROM_BUILDNUMBER :=1.03
 ROM_VERSION :=$(ROM_CODENAME)-$(ROM_BUILDNUMBER)
 ROM_NAME :=VanillaNexus
 
