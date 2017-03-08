@@ -13,9 +13,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-ROM_CODENAME :=Ascent
-ROM_BUILDNUMBER :=1.05
-ROM_VERSION :=$(ROM_CODENAME)-$(ROM_BUILDNUMBER)
+VANILLA_BUILDNAME :=Ascent
+VANILLA_BUILDNUMBER :=1.06
+VANILLA_BUILDTYPE :=Pre-Release
+ROM_VERSION :=$(VANILLA_BUILDNAME)-$(VANILLA_BUILDNUMBER)-$(VANILLA_BUILDTYPE)
 ROM_NAME :=VanillaNexus
 
 PRODUCT_PROPERTY_OVERRIDES += \
