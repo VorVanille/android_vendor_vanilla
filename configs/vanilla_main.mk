@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.interfacer.buildtype.check=true
 
-# Pixel Launcher
+# Google Prebuilts
 PRODUCT_PACKAGES += \
+GBoard \
 PixelLauncher
