@@ -35,3 +35,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
 GBoard \
 PixelLauncher
+
+# Build Pixel things if requested
+ifeq ($(PIXEL),true)
+    PRODUCT_PACKAGES += PixelLauncherIcons
+
+    PRODUCT_PACKAGE_OVERLAYS += \
+        vendor/vanilla/overlay/pixel
+endif
