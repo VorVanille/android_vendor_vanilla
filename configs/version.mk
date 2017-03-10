@@ -14,8 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 VANILLA_BUILDNAME :=Ascent
-VANILLA_BUILDNUMBER :=1.06
-VANILLA_BUILDTAG :=Public
+VANILLA_BUILDNUMBER :=1.07
+VANILLA_BUILDTAG :=Git-Built
 ROM_VERSION :=$(VANILLA_BUILDTAG)-$(VANILLA_BUILDNAME)-$(VANILLA_BUILDNUMBER)
 ROM_NAME :=VanillaNexus
 
