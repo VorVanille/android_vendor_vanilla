@@ -34,6 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Google Prebuilts
 PRODUCT_PACKAGES += \
 GBoard \
+GoogleWallpapers\
 PixelLauncher
 
 # Build Pixel things if requested
