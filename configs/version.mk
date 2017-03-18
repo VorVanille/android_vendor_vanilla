@@ -14,14 +14,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 VANILLA_BUILDNAME :=Ascent
-VANILLA_BUILDNUMBER :=1.10
+VANILLA_BUILDNUMBER :=1.11
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else
  VANILLA_BUILDTAG :=Git-Built
 endif
 
-ROM_NAME :=VanillaNexus
+ROM_NAME :=Vanilla
 
 ifeq ($(PIXEL),true)
  ROM_VERSION :=$(VANILLA_BUILDTAG)-$(VANILLA_BUILDNAME)-$(VANILLA_BUILDNUMBER)-Pixel
