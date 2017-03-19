@@ -43,4 +43,8 @@ ifeq ($(PIXEL),true)
 
     PRODUCT_PACKAGE_OVERLAYS += \
         vendor/vanilla/overlay/pixel
+
+    # Set Pixel blue light theme on Gboard
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.com.google.ime.theme_id=5
 endif
