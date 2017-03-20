@@ -2,7 +2,11 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GBoard
-LOCAL_SRC_FILES := GBoard.apk
+ifeq ($(TARGET_ARCH),arm64)
+LOCAL_SRC_FILES := arm64/GBoard.apk
+else
+LOCAL_SRC_FILES := arm/GBoard.apk
+endif
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
