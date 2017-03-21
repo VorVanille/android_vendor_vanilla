@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 VANILLA_BUILDNAME :=Ascent
-VANILLA_BUILDNUMBER :=1.11
+VANILLA_BUILDNUMBER :=1.12
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else
