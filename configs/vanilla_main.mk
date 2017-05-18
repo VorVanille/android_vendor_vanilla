@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ThemeInterfacer
 
+# Vanilla Prebuilts
+PRODUCT_PACKAGES += \
+    VanillaNav
+
 # ThemeInterfacer sig check override
 # Default value is false
 # Setting to true so that my debug APKs get recognized without toggling the
