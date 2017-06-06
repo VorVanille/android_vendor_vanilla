@@ -18,7 +18,7 @@ VANILLA_BUILDNUMBER :=2.0
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else
- VANILLA_BUILDTAG :=$(USER)-Unofficial-Snapshot
+ VANILLA_BUILDTAG :=$(USER)-unofficial-snapshot
 endif
 
 ROM_NAME :=Vanilla
