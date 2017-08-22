@@ -13,15 +13,15 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-VANILLA_BUILDNAME :=Bean
-VANILLA_BUILDNUMBER :=2.0
+VANILLA_BUILDNAME :=Oreo
+VANILLA_BUILDNUMBER :=7.0
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else
  VANILLA_BUILDTAG :=$(USER)-unofficial-snapshot
 endif
 
-ROM_NAME :=Vanilla
+ROM_NAME :=VorVanille
 
 ifeq ($(PIXEL),true)
  ROM_VERSION :=$(VANILLA_BUILDNAME)-$(VANILLA_BUILDNUMBER)-$(VANILLA_BUILDTAG)-Pixel
