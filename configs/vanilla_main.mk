@@ -38,12 +38,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Google Prebuilts
 PRODUCT_PACKAGES += \
     GBoard \
-    GoogleWallpapers \
-    PixelLauncher
-
-# Build Pixel things
-PRODUCT_PACKAGES += \
-    PixelLauncherIcons
+    GoogleWallpapers
 
 # Set Pixel blue light theme on Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
