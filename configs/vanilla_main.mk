@@ -28,6 +28,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     VanillaNav
 
+# Overlay Packages
+PRODUCT_PACKAGES += \
+    PixelOverlay \
+    NexusOverlay
+
 # ThemeInterfacer sig check override
 # Default value is false
 # Setting to true so that my debug APKs get recognized without toggling the
