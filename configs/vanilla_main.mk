@@ -31,7 +31,8 @@ PRODUCT_PACKAGES += \
 # Overlay Packages
 PRODUCT_PACKAGES += \
     PixelOverlay \
-    NexusOverlay
+    NexusOverlay \
+    DefaultOverlay
 
 # ThemeInterfacer sig check override
 # Default value is false
