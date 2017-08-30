@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 VANILLA_BUILDNAME :=Oreo
-VANILLA_BUILDNUMBER :=7.0
+VANILLA_BUILDNUMBER :=7.1
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else
